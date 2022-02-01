@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+a:link,
+a:visited {
+  color: #ffffff;
+}
+
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+body {
+  /* background: url(/images/apple_pie_tabletop_clean.png) no-repeat center center
+    fixed; */
+  /* filter: blur(10px); */
+  /* -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover; */
+  font-family: "Shadows Into Light", cursive;
+  color: white;
+  background-color: black;
+
+  margin: auto;
+  /* text-align: center; */
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-area: title;
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  font-size: 4rem;
+  font-weight: 1000;
+  /* border: solid white; */
+  /* border-style: ridge; */
+}
+
+.menu-wrapper {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  font-size: 3rem;
+  width: max-content;
+  justify-content: center;
+  /* border: solid white; */
+  align-items: center;
+  /* align-items: center; */
+  /* text-align: left; */
+  padding-top: 80px;
+}
+
+/* .menu-wrapper > div {
+  padding-bottom: 20px;
+} */
+/* .one-player {
+  text-align: left;
+} */
+
+.titleNew {
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+/* .one-player {
+  text-decoration: none;
+} */
+
+/* .test-link {
+  text-decoration: none;
+} */
+
+a {
+  text-decoration: none;
+}
+/* 
+.arrow {
+  color: black;
+  background-color: white;
+}
+ */
+a:visited {
+  color: inherit;
+  padding-bottom: 20px;
+}
+
+.rounds-wrapper {
+  /* position: absolute;
+  left: 550px;
+  top: 330px; */
+
+  display: flex;
+  justify-content: space-between 10px;
+  column-gap: 10px;
+}
+
+.difficulty-wrapper {
+  /* position: absolute;
+  left: 550px;
+  top: 330px; */
+  text-align: center;
+  display: flex;
+  /* justify-content: center; */
+  flex-direction: column;
+  /* justify-content: space-around 20px; */
+  /* column-gap: 10px; */
+}
+
+.input {
+  border: solid white 3px;
+  width: 15rem;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.label {
+  font-weight: 700;
+}
+
+.logoDiv {
+  /* position: relative; */
+  background-color: rgb(66, 14, 117);
+  /* width: 200px;
+  height: 200px;
+  margin-left: 15%;
+  margin-right: 15%; */
+  /* height: 50px; */
+  position: relative;
+  margin-top: 100px;
+}
+
+.logo {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  max-width: 100%;
+  max-height: 100%; */
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  left: 51%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 280px;
+
+  /* display: block;
+  margin-left: auto;
+  margin-right: auto; */
+  /* margin-left: 2%;
+  margin-right: 98%; */
+  /* width: 300px; */
+  /* background-color: blueviolet; */
+}
+
+.credits {
+  position: relative;
+  top: 30px;
+  /* background-color: blueviolet; */
+  text-align: center;
+  margin-bottom: 100px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(136, 136, 136);
+  font-size: 1rem;
+  /* white-space: nowrap; */
+}
+
+.input:hover {
+  background-color: white;
+  color: black;
+}
+
+.round-no {
+  margin-bottom: 10px;
+  /* cursor: pointer; */
+}
+
+.content {
+  margin-left: 15%;
+  margin-right: 15%;
+  font-size: 1.5rem;
+}
+
+.centre {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.back-to-main {
+  font-size: 3rem;
+  font-weight: 1000;
+}
+
+.pic {
+  margin-top: 15px;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+.back-to-main {
+  cursor: pointer;
+}
+
+/* .up {
+  position: absolute;
+  left: 180px;
+  top: 18px;
+}
+
+.down {
+  position: absolute;
+  left: 220px;
+  top: 18px;
+} */
+/* .rounds {
+  display: inline;
+
+  background: none;
+  border: 4px solid #eee;
+  font-family: inherit;
+  color: inherit;
+  font-size: 2rem; */
+/* padding: 2.5rem; */
+/* width: 4rem;
+  height: 3rem;
+  text-align: center; */
+
+/* margin-bottom: 3rem; */
+/* } */
+
+/* .rounds-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+
+  grid-template-areas:
+    "label label input arrow-up"
+    "label label input arrow-down";
+} */
+
+/* .label {
+  grid-area: label;
+} */
+
+/* .input {
+  grid-area: input;
+  background-color: lawngreen;
+  text-align: center;
+} */
+
+/* .up {
+  grid-area: arrow-up;
+  background-color: rgb(55, 104, 6);
+}
+
+.down {
+  grid-area: arrow-down;
+  background-color: rgb(16, 31, 1);
+} */
+/* .responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+parent {
+  position: relative;
+} */

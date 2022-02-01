@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+
+  <body>
+    <!-- <div id="inlineSet"></div> -->
+    <!-- <div class="title">NIM</div> -->
+
+    <div class="main-container" id="blur">
+      <!-- <div id="nimSet">blah</div> -->
+      <div class="title">
+        NIM
+        <!-- <div><img src="ball.jpg" /></div> -->
+      </div>
+      <div id="nimSet">
+        <div id="innerWrapper"></div>
+        <div id="test-div"></div>
+        <!-- <div class="innerWrapper">
+          <img
+            id="testImage"
+            src="/images/Toothpick_cropped_shaved_shadow.png"
+            class="match"
+          />
+        </div> -->
+      </div>
+
+      <div class="status"></div>
+      <!-- <div class="player player-0 player--active">Player 1-3</div> -->
+      <div class="player-wrapper">
+        <div class="player">Player</div>
+        <div class="player" id="player-no">1</div>
+      </div>
+
+      <!-- <div class="active-plyer" id="active-plyer-no">rgrg</div> -->
+      <div class="end-turn-wrapper">
+        <button
+          class="end-turn buttons match-buttons"
+          onclick="chgPlyer(genStats)"
+        >
+          End Turn
+        </button>
+      </div>
+      <!-- <div class="player player-1">Player 2-5</div> -->
+      <div class="game-stats">
+        <!-- <div>Stats</div><br> -->
+        <div class="round-no">Round 1 of 1</div>
+        <div>Wins:</div>
+        <div class="player-score-wrapper">
+          <span class="player0-wins-label">Player 1: </span>
+          <span class="player0-wins"></span>
+        </div>
+        <div class="player-score-wrapper">
+          <span class="player1-wins-label">Player 2: </span>
+          <span class="player1-wins"></span>
+        </div>
+
+        <br />
+        <button class="Main-Menu buttons match-buttons" onclick="mainMenu()">
+          Main Menu
+        </button>
+      </div>
+    </div>
+
+    <div class="winner-popup">
+      <span class="winner popup-title"></span>
+      <span class="winner round-num"></span>
+      <div>
+        <span class="winner winner-player">Player</span>
+        <span class="winner winner-player-no"></span>
+      </div>
+
+      <div class="winner you-won">You Won!!</div>
+      <div class="winner buttons-wrapper">
+        <!-- <div> -->
+        <button
+          class="winner popup-buttons button1 buttons"
+          onclick="winnerMenu(event)"
+        ></button>
+        <!-- <button
+          class="winner popup-buttons button2"
+          onclick="location.href='../index.html';"
+        > -->
+        <button
+          class="winner popup-buttons button2 buttons"
+          onclick="location.href='../index.html';"
+        >
+          Quit
+        </button>
+        <!-- </div> -->
+      </div>
+    </div>
+
+    <!-- <p id="test_p"></p>
+    <p id="afterClick"></p>
+    <div id="button" onClick="remove()">Click Me!</div>
+
+    <div id="testArea1">
+      <div id="aCookie">CookieA</div>
+      <div id="bCookie">CookieB</div>
+      <div id="cCookie">CookieC</div>
+    </div>
+    <div id="testArea2">
+      <img id="match" src="match.png" />
+      <div id="1Cookie">Cookie1</div>
+      <div id="2Cookie">Cookie2</div>
+      <div id="3Cookie">Cookie3</div>
+    </div> -->
+  </body>
+  <script src="onePlayerGameNoChangeplyr.js"></script>
+</html>
