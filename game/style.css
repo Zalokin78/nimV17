@@ -341,13 +341,13 @@ body {
 }*/
 
 .buttons:active {
-  transform: translate(0, 3px);
+  /*transform: translate(0, 3px);*/
   background-color: #cf0909;
 }
-/* 
+ 
 .buttons:hover {
   background-color: #cf0909;
-} */
+}
 
 /*@media (hover: hover) {
   .buttons:hover {
