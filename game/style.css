@@ -336,9 +336,9 @@ body {
   /* word-wrap: break-word; */
 }
 
-.hover:hover {
+/*.hover:hover {
   background-color: #cf0909;
-}
+}*/
 
 .buttons:active {
   transform: translate(0, 3px);
