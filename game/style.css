@@ -349,11 +349,11 @@ body {
   background-color: #cf0909;
 } */
 
-@media (hover: hover) {
+/*@media (hover: hover) {
   .buttons:hover {
     background-color: #cf0909;
   }
-}
+}*/
 
 .match-buttons {
   width: 140px;
